@@ -41,7 +41,7 @@ const Header = () => {
       <nav className="header__nav">
       <ul className="header__list">
        <li>
-        <Link className="header__link" to="/qr-code/">Генератор QR-кодов</Link>
+        <Link className="header__link" to="/qr-code">Генератор QR-кодов</Link>
        </li>
        <li>
         <Link className="header__link" to="/qr-code/generate-history">История генерирования</Link>
