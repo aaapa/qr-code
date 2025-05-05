@@ -9,10 +9,10 @@ const IndexPage = () => {
   return (
     <>
      <Routes>
-      <Route path="/qr-code" element={<QrCodeGenerator />} />
-      <Route path="/qr-code/generate-history" element={<GenerateHistory />} />
-      <Route path="/qr-code/scan" element={<QrCodeScanner />} />
-      <Route path="/qr-code/scan-history" element={<ScanHistory />} />
+      <Route path="/" element={<QrCodeGenerator />} />
+      <Route path="/generate-history" element={<GenerateHistory />} />
+      <Route path="/scan" element={<QrCodeScanner />} />
+      <Route path="/scan-history" element={<ScanHistory />} />
      </Routes>
     </>
   )
