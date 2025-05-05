@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+  color: #2B2E33;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden auto;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.container {
+  width: 100%; 
+  max-width: $container-width;
+  padding-inline: $container-padding;
+  margin-inline: auto;
+}
+
+.main {
+  flex-grow: 1;
+}

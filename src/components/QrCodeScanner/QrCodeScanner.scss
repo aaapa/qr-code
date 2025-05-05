@@ -1,0 +1,29 @@
+.qr-code-scanner {
+  width: 100%;
+  padding-block: ptrm(30);
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    gap: ptrm(20);
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    gap: ptrm(10);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      width: ptrm(350) !important;
+    }
+  }
+
+  &__name {
+    font-size: ptrm(20);
+  }
+}
