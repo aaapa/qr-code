@@ -41,16 +41,16 @@ const Header = () => {
       <nav className="header__nav">
       <ul className="header__list">
        <li>
-        <Link className="header__link" to="/">Генератор QR-кодов</Link>
+        <Link className="header__link" to="/qr-code/">Генератор QR-кодов</Link>
        </li>
        <li>
-        <Link className="header__link" to="/generate-history">История генерирования</Link>
+        <Link className="header__link" to="/qr-code/generate-history">История генерирования</Link>
        </li>
        <li>
-        <Link className="header__link" to="/scan">Скан QR-кодов</Link>
+        <Link className="header__link" to="/qr-code/scan">Скан QR-кодов</Link>
        </li>
        <li>
-        <Link className="header__link" to="/scan-history">История сканирования</Link>
+        <Link className="header__link" to="/qr-code/scan-history">История сканирования</Link>
        </li>
       </ul>
       </nav>
